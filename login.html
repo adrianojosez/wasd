@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sessão</title>
+    <title>WASD Store/Official Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+            font-family: "Motiva Sans", Sans-serif;
+        }
+        
+        h1 {
+            color: #ffffff;
+        }
+        
+        p {
+            color: #b8b6b4;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 60px;
+            margin-left: -170px;
+        }
+        
+        .formu {
+            margin-left: 605px;
+        }
+        
+        .num {
+            color: #b8b6b4;
+        }
+        
+        .caixa {
+            width: 300px;
+            height: 40px;
+            background-color: #32353C;
+            color: #E9E9E9;
+        }
+        
+        .iniciar {
+            margin-left: 25px;
+            width: 250px;
+            height: 40px;
+            background-color: #8f45fc;
+        }
+        
+        p {
+            color: white;
+            margin-top: 25px;
+            margin-left: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <img class="logo" src="img/logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="desenvolvedores.html">Desenvolvedores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ajuda.html">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/etecdrc/"><img src=img/insta.png height="40" width="40"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/EtecDRC "><img src=img/face.png height="40" width="40"></a>
+                </li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg"><a href="baixando.html">Baixe o WASD</a></button>
+    </nav>
+    <br>
+    <h1>INICIAR SESSÃO</h1>
+    <form class="formu" action="/action_page.php">
+        <label class="num" for="fname">Nome do usuário WASD:</label><br>
+        <input class="caixa" type="text" id="fname" name="fname"><br>
+        <label class="num" for="lname">Senha:</label><br>
+        <input class="caixa" type="text" id="lname" name="lname"><br><br>
+        <input class="iniciar" type="submit" value="Iniciar sessão">
+    </form>
+    <p>Esqueceu a sua senha?</p>
+
+
+
+</body>
+
+</html>

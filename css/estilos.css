@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: rgb(231, 192, 33);
+    text-align: center;
+    height: 40px;
+    font-family: Verdana;
+    margin-bottom: 40px !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.promocoes {
+    margin-top: 10px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(6, 0, 12);
+}
+
+h1 {
+    color: rgb(231, 192, 33);
+    height: 40px;
+    text-align: center;
+    font-family: unset;
+    margin-bottom: 20px !important;
+}
+
+.container {
+    margin-top: 50px;
+}
+.flex-container{
+    display: flex;
+    padding: 40px;
+    margin-left: 250px;
+}
+.card{
+    margin-right: 60px;
+}
+.segundo {
+    text-align: center;
+}
+
+.padrao {
+    height: 250px;
+    margin-right: 80px;
+}
+
+footer {
+    font-size: 80%;
+    color: rgb(134, 38, 224);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(56, 54, 58);
+}
+
+.rodape {
+    height: 30px;
+    margin-top: 80px;
+    margin-left: 350px;
+}
